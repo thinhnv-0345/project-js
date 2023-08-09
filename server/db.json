@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "title": "my pham chau my",
+      "price": 300000,
+      "category": 1,
+      "description": "Không thể phủ nhận, thời trang và phong cảnh chính là &quot;tuyên ngôn&quot; không lời mạnh mẽ nhất của mỗi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới.",
+      "numOfStar": 3,
+      "numOfSold": 40,
+      "imageUrl": "../assets/images/product.png",
+      "createdAt": "3/8/2023",
+      "id": "P-540465"
+    },
+    {
+      "title": "my pham au ",
+      "price": 200000,
+      "category": 2,
+      "description": "Không thể phủ nhận, thời trang và phong cảnh chính là &quot;tuyên ngôn&quot; không lời mạnh mẽ nhất của mỗi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới.",
+      "numOfStar": 6,
+      "numOfSold": 15,
+      "imageUrl": "../assets/images/product.png",
+      "createdAt": "7/8/2023",
+      "id": "P-637600"
+    },
+    {
+      "title": "my pham chau a",
+      "price": 200000,
+      "category": 3,
+      "description": "Không thể phủ nhận, thời trang và phong cảnh chính là &quot;tuyên ngôn&quot; không lời mạnh mẽ nhất của mỗi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới.",
+      "numOfStar": 6,
+      "numOfSold": 15,
+      "imageUrl": "../assets/images/product.png",
+      "createdAt": "7/8/2023",
+      "id": "P-564645"
+    },
+    {
+      "title": "my chau phi",
+      "price": 400000,
+      "category": 2,
+      "description": "Không thể phủ nhận, thời trang và phong cảnh chính là &quot;tuyên ngôn&quot; không lời mạnh mẽ nhất của mỗi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới.",
+      "numOfStar": 6,
+      "numOfSold": 15,
+      "imageUrl": "../assets/images/product.png",
+      "createdAt": "7/8/2023",
+      "id": "P-123645"
+    },
+    {
+      "title": "my pham chau dai duong",
+      "price": 200000,
+      "category": 1,
+      "description": "Không thể phủ nhận, thời trang và phong cảnh chính là &quot;tuyên ngôn&quot; không lời mạnh mẽ nhất của mỗi người phụ nữ. Do đó, việc mua sắm thời trang trở thành niềm vui, và có khi là nguồn cảm hứng vô tận để phái đẹp sống vui, sống đẹp hơn trong mắt nửa còn lại của thế giới.",
+      "numOfStar": 6,
+      "numOfSold": 15,
+      "imageUrl": "../assets/images/product.png",
+      "createdAt": "7/8/2023",
+      "id": "P-561045"
+    }
+  ],
+  "orders": [
+    {
+      "paymentMethod": "Thanh toan ngan hang",
+      "paymentDes": "STK:001234567;NH:BIDV",
+      "customerId": "C-165021",
+      "createdAt": "3/8/2023",
+      "id": "O-141461"
+    },
+    {
+      "customerId": "C-311343",
+      "paymentMethod": "BANKING",
+      "paymentDes": "BIDV / 65787867866898",
+      "createdAt": "8/8/2023",
+      "id": "O-494798"
+    }
+  ],
+  "orderDetails": [
+    {
+      "orderId": "O-141461",
+      "productId": "P-540465",
+      "priceEach": "300000",
+      "quantity": "3",
+      "color": "pink",
+      "size": "12",
+      "createdAt": "3/8/2023",
+      "id": "OD-843171"
+    }
+  ],
+  "customers": [
+    {
+      "name": "thinh",
+      "email": "thinh@gmail.com",
+      "address": "mai dich, cau giay, ha noi",
+      "phoneNumber": "0866234521",
+      "createdAt": "3/8/2023",
+      "id": "C-165021"
+    },
+    {
+      "name": "thinh",
+      "email": "thinh@gmail.com",
+      "address": "Mai Dich, Cau Giay, Ha Noi",
+      "phoneNumber": "0883445230",
+      "createdAt": "8/8/2023",
+      "id": "C-311343"
+    }
+  ]
+}
